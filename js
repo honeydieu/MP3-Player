@@ -31,13 +31,19 @@ $(function () {
     tFlag = false,
     albums = [
       "Morena",
+      "U",
+      "Canoue IV",
     ],
     trackNames = [
-      "Mariana Nolasco ft. Vitor Kley - Morena",
+      "Mariana Nolasco - Morena",
+      "Millennium Parade - U",
+      "Haruka Shimotsuki - 氷の魔女は眠る",
     ],
-    albumArtworks = ["_1"],
+    albumArtworks = ["_1", "_2", "_3"],
     trackUrl = [
-      "https://github.com/honeydieu/MP3-Player/blob/14df042f455b3459a2f6b521221c0ad4551207b8/morena.mp3",
+      "https://github.com/honeydieu/MP3-Player/raw/main/morena.mp3",
+      "https://github.com/honeydieu/MP3-Player/raw/main/u.mp3",
+      "https://github.com/honeydieu/MP3-Player/raw/main/canoue.mp3",
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
